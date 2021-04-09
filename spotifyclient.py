@@ -110,8 +110,8 @@ class SpotifyClient:
             query,
             headers = self.headers,
             params = {
-                "limit": 2,
-                "offset": 3
+                "limit": 50,
+                "offset": 0
             }
         )
         return response
